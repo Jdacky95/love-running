@@ -231,25 +231,31 @@ hr {
     box-sizing: border-box;
 
 }
+
 #times h2 {
     color: #fafafa;
 }
+
 footer {
     height: 150px;
-    
+
 }
+
 .social-networks {
     text-align: center;
 }
-.social-networks > li {
+
+.social-networks>li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 #photos {
     clear: both;
     line-height: 0;
@@ -259,6 +265,43 @@ footer {
 
 
 }
-#photos >img {
+
+#photos>img {
     width: 100%;
 }
+
+/*media queries */
+
+@media screen and (max-width:1200px) {
+
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    #welcome {
+        padding: 30px;
+        margin: 0%;
+
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0%;
+    }
+    #center-about {
+        width: 100%;
+        float: left;
+        clear: both;
+     padding: 0%;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
